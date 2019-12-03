@@ -3,3 +3,4 @@ tsconfig.tsbuildinfo
 dom.js
 html.js
 lib.js
+node_modules
