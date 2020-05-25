@@ -2,6 +2,7 @@
 	"name": "@ctx-core/google",
 	"version": "5.1.94",
 	"description": "ctx-core google",
+	"type": "module",
 	"main": "lib.js",
 	"module": "lib.js",
 	"types": "lib.ts",
