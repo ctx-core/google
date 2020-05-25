@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/google",
-	"version": "5.1.96",
+	"version": "5.1.97",
 	"description": "ctx-core google",
 	"type": "module",
 	"main": "lib.js",
@@ -30,11 +30,11 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "^5.13.9",
-		"@ctx-core/env": "^8.3.29",
-		"@ctx-core/error": "^5.1.78",
+		"@ctx-core/dom": "^5.13.10",
+		"@ctx-core/env": "^8.3.30",
+		"@ctx-core/error": "^5.1.79",
 		"@ctx-core/logger": "^3.1.16",
-		"@ctx-core/object": "^8.0.12"
+		"@ctx-core/object": "^8.0.13"
 	},
 	"devDependencies": {
 		"svelte": "^3.22.3",
