@@ -2,9 +2,9 @@
 	"name": "@ctx-core/google",
 	"version": "5.1.112",
 	"description": "ctx-core google",
-	"main": "index.js",
-	"module": "index.js",
-	"types": "index.ts",
+	"main": "./index.js",
+	"module": "./index.js",
+	"types": "./index.ts",
 	"scripts": {
 		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo",
