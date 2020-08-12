@@ -4,8 +4,6 @@
  */
 import { clone } from '@ctx-core/object'
 import { throw__missing_argument } from '@ctx-core/error'
-import { log } from '@ctx-core/logger'
-const logPrefix = '@ctx-core/google/html.js'
 type Opts__html__webfont__fout = {
 	WebFontConfig?:any
 	families?:string[]
@@ -70,7 +68,6 @@ gtag('config', '${GOOGLE_TRACKING_ID}');
  * @returns {string} html
  */
 export function _script__google__analytics(...a1__opts) {
-	log(`${logPrefix}|_script__google__analytics`)
 	const opts = clone(...a1__opts)
 	const GOOGLE_TRACKING_ID = opts.GOOGLE_TRACKING_ID || opts.GA_ID || process.env.GA_GOOGLE_TRACKING_ID
 	if (!GOOGLE_TRACKING_ID) throw__missing_argument({ key: 'process.env.GOOGLE_TRACKING_ID' })
@@ -94,7 +91,6 @@ ga('send', 'pageview');
  * @returns {string}
  */
 export function _html__script__gtm(opts = {}) {
-	log(`${logPrefix}|_script__gtm`)
 	return `
 ${_html__script__head__gtm(opts)}
 ${_html__script__body__gtm(opts)}
@@ -112,7 +108,6 @@ type Opts__html__script__head__gtm = {
  * @returns {string} html
  */
 export function _html__script__head__gtm(opts:Opts__html__script__head__gtm = {}) {
-	log(`${logPrefix}|_html__script__head__gtm`)
 	const GTM_ID = opts.GTM_ID || process.env.GTM_ID
 	const { dataLayer = [] } = opts
 	if (!GTM_ID) throw__missing_argument(opts, { key: 'process.env.GTM_ID' })
@@ -137,7 +132,6 @@ type Opts__html__script__body__gtm = {
  * @returns {string} html
  */
 export function _html__script__body__gtm(opts:Opts__html__script__body__gtm = {}) {
-	log(`${logPrefix}|_html__script__body__gtm`)
 	const GTM_ID = opts.GTM_ID || process.env.GTM_ID
 	if (!GTM_ID) throw__missing_argument(opts, { key: 'process.env.GTM_ID' })
 	return `
