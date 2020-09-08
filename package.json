@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/google",
-	"version": "5.1.159",
+	"version": "5.1.160",
 	"description": "ctx-core google",
 	"main": "./index.js",
 	"module": "./index.js",
@@ -29,10 +29,10 @@
 		"access": "public"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "^6.0.28",
-		"@ctx-core/env": "^8.3.61",
-		"@ctx-core/error": "^5.1.105",
-		"@ctx-core/object": "^10.0.0"
+		"@ctx-core/dom": "^6.0.30",
+		"@ctx-core/env": "^8.3.63",
+		"@ctx-core/error": "^5.1.107",
+		"@ctx-core/object": "^10.0.2"
 	},
 	"devDependencies": {
 		"svelte": "^3.24.1",
