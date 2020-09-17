@@ -1,23 +1,11 @@
-/**
- * @module @ctx-core/google/html
- * @see {@link https://developers.google.com/tag-manager}
- */
 import { clone } from '@ctx-core/object'
-import { throw__missing_argument } from '@ctx-core/error'
-type Opts__html__webfont__fout = {
-	WebFontConfig?:any
-	families?:string[]
-}
+import { error_ctx_type, throw_missing_argument } from '@ctx-core/error'
 /**
  * Html to guard agaist flash of unfocused text with Google Fonts.
- * @param opts
- * @param opts.WebFontConfig
- * @param opts.families
- * @returns {string}
  * @example `_html__webfont__fout({ families: ['Open Sans'] })`
  * @example `_html__webfont__fout({ WebFontConfig: { custom: { families: ['My Font', 'My Other Font:n4,i4,n7'], urls: ['/fonts.css'] }} })`
  */
-export function _html__webfont__fout(opts:Opts__html__webfont__fout = {}) {
+export function _html__webfont__fout(opts = {} as Opts__html__webfont__fout) {
 	const WebFontConfig =
 		opts.WebFontConfig
 		|| {
@@ -40,16 +28,13 @@ WebFontConfig = ${JSON.stringify(WebFontConfig)};
 }
 type Opts__html__gtag = {
 	GOOGLE_TRACKING_ID?:string
-}
+} & error_ctx_type
 /**
  * Html to add gtag.js to the site
- * @param opts
- * @param opts.GOOGLE_TRACKING_ID
- * @returns {string}
  */
-export function _html__gtag(opts:Opts__html__gtag = {}) {
+export function _html__gtag(opts = {} as Opts__html__gtag) {
 	const GOOGLE_TRACKING_ID = opts.GOOGLE_TRACKING_ID || process.env.GOOGLE_TRACKING_ID || ''
-	if (!GOOGLE_TRACKING_ID) throw__missing_argument(opts, { key: 'process.env.GOOGLE_TRACKING_ID' })
+	if (!GOOGLE_TRACKING_ID) throw_missing_argument(opts, { key: 'process.env.GOOGLE_TRACKING_ID' } as error_ctx_type)
 	return `
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=${GOOGLE_TRACKING_ID}"></script>
@@ -63,14 +48,11 @@ gtag('config', '${GOOGLE_TRACKING_ID}');
 }
 /**
  * Html to add ga.js to the site
- * @param opts
- * @param opts.GOOGLE_TRACKING_ID || opts.GA_ID
- * @returns {string} html
  */
-export function _script__google__analytics(...a1__opts) {
-	const opts = clone(...a1__opts)
+export function _script__google__analytics(...opts_a1: Partial<Opts__html__script__body__gtm>[]) {
+	const opts = clone(...opts_a1) as Opts__html__script__body__gtm
 	const GOOGLE_TRACKING_ID = opts.GOOGLE_TRACKING_ID || opts.GA_ID || process.env.GA_GOOGLE_TRACKING_ID
-	if (!GOOGLE_TRACKING_ID) throw__missing_argument({ key: 'process.env.GOOGLE_TRACKING_ID' })
+	if (!GOOGLE_TRACKING_ID) throw_missing_argument({ key: 'process.env.GOOGLE_TRACKING_ID' } as error_ctx_type)
 	return `
 <!-- Google Analytics -->
 <script data-cfasync="false">
@@ -90,27 +72,24 @@ ga('send', 'pageview');
  * @param opts.GTM_ID
  * @returns {string}
  */
-export function _html__script__gtm(opts = {}) {
+export function _html__script__gtm(opts = {} as Opts__html__script__head__gtm) {
 	return `
 ${_html__script__head__gtm(opts)}
 ${_html__script__body__gtm(opts)}
 	`.trim()
 }
 export const _script__gtm = _html__script__gtm
-type Opts__html__script__head__gtm = {
+type Opts__html__script__head__gtm = error_ctx_type & {
 	GTM_ID?:string
 	dataLayer?:[]
 }
 /**
  * Google Tag Manager script html to place at the top of `<head>`
- * @param opts
- * @param opts.GTM_ID
- * @returns {string} html
  */
-export function _html__script__head__gtm(opts:Opts__html__script__head__gtm = {}) {
+export function _html__script__head__gtm(opts = {} as Opts__html__script__head__gtm) {
 	const GTM_ID = opts.GTM_ID || process.env.GTM_ID
 	const { dataLayer = [] } = opts
-	if (!GTM_ID) throw__missing_argument(opts, { key: 'process.env.GTM_ID' })
+	if (!GTM_ID) throw_missing_argument(opts, { key: 'process.env.GTM_ID' } as error_ctx_type)
 	return `
 <script data-cfasync="false">window.dataLayer = ${JSON.stringify(dataLayer)};</script>
 <!-- Google Tag Manager -->
@@ -122,18 +101,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 	`.trim()
 }
-type Opts__html__script__body__gtm = {
-	GTM_ID?:string
-}
 /**
  * Google Tag Manager script html to place at the top of `<body>`
- * @param opts
- * @param opts.GTM_ID
- * @returns {string} html
  */
-export function _html__script__body__gtm(opts:Opts__html__script__body__gtm = {}) {
+export function _html__script__body__gtm(opts = {} as Opts__html__script__body__gtm) {
 	const GTM_ID = opts.GTM_ID || process.env.GTM_ID
-	if (!GTM_ID) throw__missing_argument(opts, { key: 'process.env.GTM_ID' })
+	if (!GTM_ID) throw_missing_argument(opts, { key: 'process.env.GTM_ID' } as error_ctx_type)
 	return `
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=${GTM_ID}"
@@ -141,3 +114,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 	`.trim()
 }
+type Opts__html__webfont__fout = {
+	WebFontConfig?:any
+	families?:string[]
+}
+type Opts__html__script__body__gtm = {
+	GTM_ID?:string
+	GOOGLE_TRACKING_ID?: string
+	GA_ID?: string
+} & error_ctx_type
