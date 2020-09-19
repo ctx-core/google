@@ -14,6 +14,6 @@ export function init__dataLayer() {
 		const dl = 'dataLayer' != 'dataLayer' ? '&l=' + 'dataLayer' : ''
 		j.async = true
 		j.src = `https://www.googletagmanager.com/gtm.js?id=${process.env.GTM_ID}${dl}`
-		f.parentNode.insertBefore(j, f)
+		;(f.parentNode as Node).insertBefore(j, f)
 	}
 }
