@@ -1,5 +1,16 @@
 # @ctx-core/google
 
+## 6.0.2
+
+### Patch Changes
+
+- fix: install issues: using explicit workspace: versioning
+- Updated dependencies [undefined]
+  - @ctx-core/dom@7.0.2
+  - @ctx-core/env@9.0.1
+  - @ctx-core/error@7.0.1
+  - @ctx-core/object@12.0.1
+
 ## 6.0.1
 
 ### Patch Changes
