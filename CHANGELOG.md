@@ -1,5 +1,15 @@
 # @ctx-core/google
 
+## 6.0.29
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/object@12.0.11
+  - @ctx-core/dom@7.0.29
+  - @ctx-core/env@9.0.12
+  - @ctx-core/error@7.0.11
+
 ## 6.0.28
 
 ### Patch Changes
