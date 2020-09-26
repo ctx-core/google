@@ -1,42 +1,42 @@
 {
-  "name": "@ctx-core/google",
-  "version": "6.0.33",
-  "description": "ctx-core google",
-  "keywords": [
-    "ctx-core",
-    "google"
-  ],
-  "homepage": "https://github.com/ctx-core/google#readme",
-  "bugs": {
-    "url": "https://github.com/ctx-core/google/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ctx-core/google/issues"
-  },
-  "license": "Apache-2.0",
-  "author": "Brian Takita",
-  "main": "./index.js",
-  "module": "./index.js",
-  "types": "./index.ts",
-  "scripts": {
-    "build": "npm run clean && npm run compile",
-    "clean": "rm -f tsconfig.tsbuildinfo",
-    "compile": "./node_modules/.bin/tsc -b",
-    "exec": "$@",
-    "prepublishOnly": "npm run compile"
-  },
-  "dependencies": {
-    "@ctx-core/dom": "workspace:^7.0.33",
-    "@ctx-core/env": "workspace:^9.0.16",
-    "@ctx-core/error": "workspace:^7.0.13",
-    "@ctx-core/object": "workspace:^12.0.13"
-  },
-  "devDependencies": {
-    "svelte": "3.28.0",
-    "typescript": "^4.0.3"
-  },
-  "publishConfig": {
-    "access": "public"
-  }
+	"name": "@ctx-core/google",
+	"version": "6.0.33",
+	"description": "ctx-core google",
+	"keywords": [
+		"ctx-core",
+		"google"
+	],
+	"homepage": "https://github.com/ctx-core/google#readme",
+	"bugs": {
+		"url": "https://github.com/ctx-core/google/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ctx-core/google/issues"
+	},
+	"license": "Apache-2.0",
+	"author": "Brian Takita",
+	"main": "./index.js",
+	"module": "./index.js",
+	"types": "./index.ts",
+	"scripts": {
+		"build": "npm run clean && npm run compile",
+		"clean": "rm -f tsconfig.tsbuildinfo",
+		"compile": "./node_modules/.bin/tsc -b",
+		"exec": "$@",
+		"prepublishOnly": "npm run compile"
+	},
+	"dependencies": {
+		"@ctx-core/dom": "workspace:^7.0.33",
+		"@ctx-core/env": "workspace:^9.0.16",
+		"@ctx-core/error": "workspace:^7.0.13",
+		"@ctx-core/object": "workspace:^12.0.13"
+	},
+	"devDependencies": {
+		"svelte": "3.28.0",
+		"typescript": "^4.0.3"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }
