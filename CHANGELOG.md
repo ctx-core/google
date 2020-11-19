@@ -1,5 +1,16 @@
 # @ctx-core/google
 
+## 6.0.56
+
+### Patch Changes
+
+- typescript: ^4.0.5 -> ^4.1.2
+- Updated dependencies [undefined]
+  - @ctx-core/dom@7.1.8
+  - @ctx-core/env@9.0.29
+  - @ctx-core/error@7.0.16
+  - @ctx-core/object@13.0.2
+
 ## 6.0.55
 
 ### Patch Changes
