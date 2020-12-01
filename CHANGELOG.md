@@ -1,5 +1,14 @@
 # @ctx-core/google
 
+## 6.0.62
+
+### Patch Changes
+
+- svelte: 3.30.0 -> 3.30.1
+- Updated dependencies [undefined]
+  - @ctx-core/env@9.1.1
+  - @ctx-core/dom@7.1.14
+
 ## 6.0.61
 
 ### Patch Changes
