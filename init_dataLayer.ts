@@ -1,8 +1,6 @@
-import { _has__dom } from '@ctx-core/dom'
-import { push__dataLayer } from './lib'
-export { push__dataLayer }
-export function init__dataLayer() {
-	if (_has__dom()) {
+import { has__dom } from '@ctx-core/dom'
+export function init_dataLayer() {
+	if (has__dom) {
 		window['dataLayer'] = []
 		window['dataLayer'] = window['dataLayer'] || []
 		window['dataLayer'].push({
@@ -16,4 +14,7 @@ export function init__dataLayer() {
 		j.src = `https://www.googletagmanager.com/gtm.js?id=${process.env.GTM_ID}${dl}`
 		;(f.parentNode as Node).insertBefore(j, f)
 	}
+}
+export {
+	init_dataLayer as init__dataLayer
 }

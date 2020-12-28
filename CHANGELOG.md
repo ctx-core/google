@@ -1,5 +1,23 @@
 # @ctx-core/google
 
+## 6.1.0
+
+### Minor Changes
+
+- interface WebFontConfig
+- interface \_gtm_script_html_opts_type
+- \_gtm_script_html as \_script\_\_gtm
+- \_gtm_script_html as \_html**script**gtm
+- \_gtm_head_script_html as \_html**script**head\_\_gtm
+- init_dataLayer as init\_\_dataLayer
+- \_gtag_html as \_html\_\_gtag
+- \_gtm_body_script_html as \_html**script**body\_\_gtm
+- interface \_gtag_html_opts_type
+- push_dataLayer as push\_\_dataLayer
+- interface gtm_body_script_html_opts_type
+- \_analytics_google_script as \_script**google**analytics
+- \_webfont_fout_html as \_html**webfont**fout
+
 ## 6.0.74
 
 ### Patch Changes
