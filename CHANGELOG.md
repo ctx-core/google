@@ -1,5 +1,12 @@
 # @ctx-core/google
 
+## 6.1.11
+
+### Patch Changes
+
+- remove @ctx-core/env dependency
+  - @ctx-core/dom@7.1.37
+
 ## 6.1.10
 
 ### Patch Changes
