@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/google",
-	"version": "6.1.13",
+	"version": "6.1.14",
 	"description": "ctx-core google",
 	"keywords": [
 		"ctx-core",
@@ -27,9 +27,9 @@
 		"prepublishOnly": "npm run compile"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "workspace:^7.1.39",
-		"@ctx-core/error": "workspace:^7.1.20",
-		"@ctx-core/object": "workspace:^16.0.1"
+		"@ctx-core/dom": "workspace:^7.1.40",
+		"@ctx-core/error": "workspace:^7.1.21",
+		"@ctx-core/object": "workspace:^16.0.2"
 	},
 	"devDependencies": {
 		"@types/google.analytics": "^0.0.41",
