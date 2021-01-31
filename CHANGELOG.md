@@ -1,5 +1,11 @@
 # @ctx-core/google
 
+## 7.0.1
+
+### Patch Changes
+
+- @ctx-core/dom@8.0.1
+
 ## 7.0.0
 
 ### Major Changes
