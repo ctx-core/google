@@ -1,5 +1,18 @@
 # @ctx-core/google
 
+## 7.0.0
+
+### Major Changes
+
+- src directory
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/dom@8.0.0
+  - @ctx-core/error@8.0.0
+  - @ctx-core/object@17.0.0
+
 ## 6.1.26
 
 ### Patch Changes
