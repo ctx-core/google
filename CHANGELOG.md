@@ -1,5 +1,16 @@
 # @ctx-core/google
 
+## 7.1.0
+
+### Minor Changes
+
+- ui directory
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/dom@8.1.0
+
 ## 7.0.2
 
 ### Patch Changes
