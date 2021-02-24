@@ -1,6 +1,6 @@
-import { has__dom } from '@ctx-core/dom'
+import { has_dom } from '@ctx-core/dom'
 export function init_dataLayer() {
-	if (has__dom) {
+	if (has_dom) {
 		window['dataLayer'] = []
 		window['dataLayer'] = window['dataLayer'] || []
 		window['dataLayer'].push({
