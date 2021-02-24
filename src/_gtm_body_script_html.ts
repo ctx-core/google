@@ -1,11 +1,11 @@
-import { error_ctx_type, throw_missing_argument } from '@ctx-core/error'
+import { error_ctx_T, throw_missing_argument } from '@ctx-core/error'
 import type { gtm_body_script_html_opts_type } from './gtm_body_script_html_opts_type'
 /**
  * Google Tag Manager script html to place at the top of `<body>`
  */
 export function _gtm_body_script_html(opts = {} as gtm_body_script_html_opts_type) {
 	const GTM_ID = opts.GTM_ID || process.env.GTM_ID
-	if (!GTM_ID) throw_missing_argument(opts, { key: 'process.env.GTM_ID' } as error_ctx_type)
+	if (!GTM_ID) throw_missing_argument(opts, { key: 'process.env.GTM_ID' } as error_ctx_T)
 	return `
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=${GTM_ID}"
