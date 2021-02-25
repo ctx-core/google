@@ -1,5 +1,12 @@
 # @ctx-core/google
 
+## 7.1.20
+
+### Patch Changes
+
+- svelte: 3.32.3 -> 3.33.0
+  - @ctx-core/dom@8.2.1
+
 ## 7.1.19
 
 ### Patch Changes
