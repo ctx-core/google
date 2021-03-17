@@ -1,5 +1,11 @@
 # @ctx-core/google
 
+## 7.1.31
+
+### Patch Changes
+
+- @ctx-core/dom@8.2.12
+
 ## 7.1.30
 
 ### Patch Changes
