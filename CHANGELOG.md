@@ -1,5 +1,15 @@
 # @ctx-core/google
 
+## 7.1.32
+
+### Patch Changes
+
+- fix: npm run compile: tsc -b .
+- Updated dependencies [undefined]
+  - @ctx-core/dom@8.2.13
+  - @ctx-core/error@8.0.19
+  - @ctx-core/object@17.4.1
+
 ## 7.1.31
 
 ### Patch Changes
