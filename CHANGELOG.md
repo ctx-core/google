@@ -1,5 +1,15 @@
 # @ctx-core/google
 
+## 7.1.33
+
+### Patch Changes
+
+- fix: npm publish: https://github.com/npm/cli/issues/2834
+- Updated dependencies [undefined]
+  - @ctx-core/dom@8.2.14
+  - @ctx-core/error@8.0.20
+  - @ctx-core/object@17.4.2
+
 ## 7.1.32
 
 ### Patch Changes
