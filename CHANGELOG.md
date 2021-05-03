@@ -1,5 +1,14 @@
 # @ctx-core/google
 
+## 7.1.51
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/dom@8.2.44
+  - @ctx-core/error@8.0.34
+
 ## 7.1.50
 
 ### Patch Changes
