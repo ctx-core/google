@@ -1,5 +1,11 @@
 # @ctx-core/google
 
+## 7.1.52
+
+### Patch Changes
+
+- svelte: 3.38.1 -> 3.38.2
+
 ## 7.1.51
 
 ### Patch Changes
