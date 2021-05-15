@@ -1,5 +1,5 @@
 import { clone } from '@ctx-core/object'
-import { error_ctx_T, throw_missing_argument } from '@ctx-core/error'
+import { error_ctx_I, throw_missing_argument } from '@ctx-core/error'
 import type { gtm_body_script_html_opts_type } from './gtm_body_script_html_opts_type'
 /**
  * Html to add ga.js to the site
@@ -7,7 +7,7 @@ import type { gtm_body_script_html_opts_type } from './gtm_body_script_html_opts
 export function _analytics_google_script(...opts_a1:Partial<gtm_body_script_html_opts_type>[]) {
 	const opts = clone(...opts_a1) as gtm_body_script_html_opts_type
 	const GOOGLE_TRACKING_ID = opts.GOOGLE_TRACKING_ID || opts.GA_ID || process.env.GA_GOOGLE_TRACKING_ID
-	if (!GOOGLE_TRACKING_ID) throw_missing_argument({ key: 'process.env.GOOGLE_TRACKING_ID' } as error_ctx_T)
+	if (!GOOGLE_TRACKING_ID) throw_missing_argument({ key: 'process.env.GOOGLE_TRACKING_ID' } as error_ctx_I)
 	return `
 <!-- Google Analytics -->
 <script data-cfasync="false">
