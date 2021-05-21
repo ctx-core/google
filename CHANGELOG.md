@@ -1,5 +1,13 @@
 # @ctx-core/google
 
+## 7.2.5
+
+### Patch Changes
+
+- \_ctx_I->\_Ctx
+- Updated dependencies [undefined]
+  - @ctx-core/error@8.1.5
+
 ## 7.2.4
 
 ### Patch Changes
