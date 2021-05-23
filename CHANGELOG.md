@@ -1,5 +1,12 @@
 # @ctx-core/google
 
+## 7.3.0
+
+### Minor Changes
+
+- \_gtm_script_html_opts_type->\_gtm_script_html_opts_T
+- gtm_body_script_html_opts_type->gtm_body_script_html_opts_T
+
 ## 7.2.8
 
 ### Patch Changes
