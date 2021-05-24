@@ -1,5 +1,15 @@
 # @ctx-core/google
 
+## 7.4.1
+
+### Patch Changes
+
+- .gitignore: - \*.js
+- Updated dependencies [undefined]
+  - @ctx-core/dom@8.4.1
+  - @ctx-core/error@8.2.1
+  - @ctx-core/object@18.1.1
+
 ## 7.4.0
 
 ### Minor Changes
