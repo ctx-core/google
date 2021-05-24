@@ -1,5 +1,18 @@
 # @ctx-core/google
 
+## 7.4.0
+
+### Minor Changes
+
+- dist,types directory: addressing typescript build issues
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/dom@8.4.0
+  - @ctx-core/error@8.2.0
+  - @ctx-core/object@18.1.0
+
 ## 7.3.3
 
 ### Patch Changes
