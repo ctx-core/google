@@ -1,5 +1,18 @@
 # @ctx-core/google
 
+## 7.5.0
+
+### Minor Changes
+
+- fix tsc build directory issues
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/dom@8.5.0
+  - @ctx-core/error@8.3.0
+  - @ctx-core/object@18.2.0
+
 ## 7.4.1
 
 ### Patch Changes
