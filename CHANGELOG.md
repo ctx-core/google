@@ -1,5 +1,11 @@
 # @ctx-core/google
 
+## 7.5.1
+
+### Patch Changes
+
+- update dependencies
+
 ## 7.5.0
 
 ### Minor Changes
