@@ -1,6 +1,6 @@
-export function push_dataLayer(obj:object, ...arg_a1:object[]) {
+export function push_dataLayer(obj:object, ...arg_a:object[]) {
 	const dataLayer = window['dataLayer'] = window['dataLayer'] || []
-	dataLayer.push(obj, ...arg_a1)
+	dataLayer.push(obj, ...arg_a)
 }
 declare global {
 	interface Window {

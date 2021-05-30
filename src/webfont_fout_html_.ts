@@ -4,7 +4,7 @@ import type { WebFontConfig } from './WebFontConfig'
  * @example `_webfont_fout_html({ families: ['Open Sans'] })`
  * @example `_webfont_fout_html({ WebFontConfig: { custom: { families: ['My Font', 'My Other Font:n4,i4,n7'], urls: ['/fonts.css'] }} })`
  */
-export function _webfont_fout_html(opts = {} as webfont_fout_html_opts_type) {
+export function webfont_fout_html_(opts = {} as webfont_fout_html_opts_T) {
 	const WebFontConfig =
 		opts.WebFontConfig
 		|| {
@@ -26,9 +26,10 @@ WebFontConfig = ${JSON.stringify(WebFontConfig)};
 	`.trim()
 }
 export {
-	_webfont_fout_html as _html__webfont__fout
+	webfont_fout_html_ as _webfont_fout_html,
+	webfont_fout_html_ as _html__webfont__fout,
 }
-export interface webfont_fout_html_opts_type {
+export interface webfont_fout_html_opts_T {
 	WebFontConfig?:WebFontConfig
 	families?:string[]
 }

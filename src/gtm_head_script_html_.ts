@@ -1,9 +1,9 @@
 import { error_ctx_I, throw_missing_argument } from '@ctx-core/error'
-import type { _gtm_script_html_opts_T } from './_gtm_script_html_opts_T'
+import type { gtm_script_html_opts__T } from './gtm_script_html_opts___t'
 /**
  * Google Tag Manager script html to place at the top of `<head>`
  */
-export function _gtm_head_script_html(opts = {} as _gtm_script_html_opts_T) {
+export function gtm_head_script_html_(opts = {} as gtm_script_html_opts__T) {
 	const GTM_ID = opts.GTM_ID || process.env.GTM_ID
 	const { dataLayer = [] } = opts
 	if (!GTM_ID) throw_missing_argument(opts, { key: 'process.env.GTM_ID' } as error_ctx_I)
@@ -19,5 +19,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	`.trim()
 }
 export {
-	_gtm_head_script_html as _html__script__head__gtm
+	gtm_head_script_html_ as _gtm_head_script_html,
+	gtm_head_script_html_ as _html__script__head__gtm,
 }
