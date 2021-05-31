@@ -30,7 +30,7 @@
 	"dependencies": {
 		"@ctx-core/dom": "workspace:^9.0.2",
 		"@ctx-core/error": "workspace:^9.0.0",
-		"@ctx-core/object": "workspace:^19.0.1"
+		"@ctx-core/object": "workspace:^19.0.2"
 	},
 	"devDependencies": {
 		"@ctx-core/ctx-core-package-tools": "workspace:^7.0.2",
