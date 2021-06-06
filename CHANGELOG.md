@@ -1,5 +1,15 @@
 # @ctx-core/google
 
+## 8.0.3
+
+### Patch Changes
+
+- fix: build: clean up old build files in dist
+- Updated dependencies [undefined]
+  - @ctx-core/dom@9.0.9
+  - @ctx-core/error@9.0.3
+  - @ctx-core/object@19.1.2
+
 ## 8.0.2
 
 ### Patch Changes
