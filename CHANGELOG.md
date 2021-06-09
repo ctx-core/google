@@ -1,5 +1,14 @@
 # @ctx-core/google
 
+## 8.0.8
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/dom@9.0.13
+  - @ctx-core/error@9.0.7
+
 ## 8.0.7
 
 ### Patch Changes
