@@ -1,5 +1,11 @@
 # @ctx-core/google
 
+## 9.0.1
+
+### Patch Changes
+
+- remove npm run symlink
+
 ## 9.0.0
 
 ### Major Changes
