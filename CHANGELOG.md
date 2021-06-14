@@ -1,5 +1,18 @@
 # @ctx-core/google
 
+## 9.0.0
+
+### Major Changes
+
+- move from dist to src directory
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/dom@10.0.0
+  - @ctx-core/error@10.0.0
+  - @ctx-core/object@20.0.0
+
 ## 8.0.9
 
 ### Patch Changes
