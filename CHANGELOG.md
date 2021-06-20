@@ -1,5 +1,15 @@
 # @ctx-core/google
 
+## 9.0.6
+
+### Patch Changes
+
+- fix: npm run clean
+- Updated dependencies [undefined]
+  - @ctx-core/dom@10.0.4
+  - @ctx-core/error@10.0.3
+  - @ctx-core/object@20.0.4
+
 ## 9.0.5
 
 ### Patch Changes
