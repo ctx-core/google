@@ -1,5 +1,15 @@
 # @ctx-core/google
 
+## 9.0.9
+
+### Patch Changes
+
+- fix: deploying \*.js files
+- Updated dependencies [undefined]
+  - @ctx-core/dom@10.0.7
+  - @ctx-core/error@10.0.6
+  - @ctx-core/object@20.0.7
+
 ## 9.0.8
 
 ### Patch Changes
