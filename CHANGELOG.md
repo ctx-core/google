@@ -1,5 +1,15 @@
 # @ctx-core/google
 
+## 9.0.7
+
+### Patch Changes
+
+- npm run prepare instead of npm run prepublishOnly
+- Updated dependencies [undefined]
+  - @ctx-core/dom@10.0.5
+  - @ctx-core/error@10.0.4
+  - @ctx-core/object@20.0.5
+
 ## 9.0.6
 
 ### Patch Changes
