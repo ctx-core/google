@@ -1,5 +1,15 @@
 # @ctx-core/google
 
+## 9.0.10
+
+### Patch Changes
+
+- "prepublishOnly": "npm run clean && npm run compile"
+- Updated dependencies [undefined]
+  - @ctx-core/dom@10.0.8
+  - @ctx-core/error@10.0.7
+  - @ctx-core/object@20.0.8
+
 ## 9.0.9
 
 ### Patch Changes
