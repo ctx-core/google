@@ -1,5 +1,14 @@
 # @ctx-core/google
 
+## 9.0.14
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/dom@10.0.11
+  - @ctx-core/error@10.1.2
+
 ## 9.0.13
 
 ### Patch Changes
