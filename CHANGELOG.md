@@ -1,5 +1,15 @@
 # @ctx-core/google
 
+## 9.0.13
+
+### Patch Changes
+
+- tsconfig.json: "lib": ["dom", "ESNext"]
+- Updated dependencies [undefined]
+  - @ctx-core/dom@10.0.10
+  - @ctx-core/error@10.1.1
+  - @ctx-core/object@20.1.1
+
 ## 9.0.12
 
 ### Patch Changes
