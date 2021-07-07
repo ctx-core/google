@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/google",
-	"version": "9.0.28",
+	"version": "9.0.29",
 	"description": "ctx-core google",
 	"keywords": [
 		"ctx-core",
@@ -28,9 +28,9 @@
 		"prepublishOnly": "npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "workspace:^10.0.22",
-		"@ctx-core/error": "workspace:^10.1.7",
-		"@ctx-core/object": "workspace:^20.3.0"
+		"@ctx-core/dom": "workspace:^10.0.23",
+		"@ctx-core/error": "workspace:^10.1.8",
+		"@ctx-core/object": "workspace:^20.4.0"
 	},
 	"devDependencies": {
 		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.19",
