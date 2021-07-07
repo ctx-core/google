@@ -1,5 +1,11 @@
 # @ctx-core/google
 
+## 9.0.26
+
+### Patch Changes
+
+- @types/google.analytics: ^0.0.41 -> ^0.0.42
+
 ## 9.0.25
 
 ### Patch Changes

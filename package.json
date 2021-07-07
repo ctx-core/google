@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/google",
-	"version": "9.0.25",
+	"version": "9.0.26",
 	"description": "ctx-core google",
 	"keywords": [
 		"ctx-core",
@@ -33,8 +33,8 @@
 		"@ctx-core/object": "workspace:^20.2.5"
 	},
 	"devDependencies": {
-		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.17",
-		"@types/google.analytics": "^0.0.41",
+		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.18",
+		"@types/google.analytics": "^0.0.42",
 		"svelte": "3.38.3",
 		"typescript": "^4.3.5"
 	},
