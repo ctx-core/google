@@ -28,9 +28,9 @@
 		"prepublishOnly": "npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "workspace:^10.0.25",
+		"@ctx-core/dom": "workspace:^10.0.26",
 		"@ctx-core/error": "workspace:^10.1.9",
-		"@ctx-core/object": "workspace:^20.4.1"
+		"@ctx-core/object": "workspace:^20.4.2"
 	},
 	"devDependencies": {
 		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.21",
