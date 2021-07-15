@@ -1,5 +1,5 @@
 import { error_ctx_I, throw_missing_argument } from '@ctx-core/error'
-import type { gtm_script_html_opts__T } from './gtm_script_html_opts___t'
+import type { gtm_script_html_opts__T } from './gtm_script_html_opts___t.js'
 /**
  * Google Tag Manager script html to place at the top of `<head>`
  */

@@ -1,6 +1,6 @@
 import { clone } from '@ctx-core/object'
 import { error_ctx_I, throw_missing_argument } from '@ctx-core/error'
-import type { gtm_body_script_html_opts_T } from './gtm_body_script_html_opts_T'
+import type { gtm_body_script_html_opts_T } from './gtm_body_script_html_opts_T.js'
 /**
  * Html to add ga.js to the site
  */
