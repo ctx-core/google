@@ -2,7 +2,7 @@ import { error_ctx_I, throw_missing_argument } from '@ctx-core/error'
 /**
  * Html to add gtag.js to the site
  */
-export function gtag_html_(opts = {} as _gtag_html_opts_T) {
+export function gtag_html_(opts = {} as _gtag_html_opts_T):string {
 	const GOOGLE_TRACKING_ID = opts.GOOGLE_TRACKING_ID || process.env.GOOGLE_TRACKING_ID || ''
 	if (!GOOGLE_TRACKING_ID) throw_missing_argument(opts, { key: 'process.env.GOOGLE_TRACKING_ID' } as error_ctx_I)
 	return `

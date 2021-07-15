@@ -3,7 +3,9 @@ import type { gtm_script_html_opts__T } from './gtm_script_html_opts___t.js'
 /**
  * Google Tag Manager script html to place at the top of `<head>`
  */
-export function gtm_head_script_html_(opts = {} as gtm_script_html_opts__T) {
+export function gtm_head_script_html_(
+	opts = {} as gtm_script_html_opts__T
+):string {
 	const GTM_ID = opts.GTM_ID || process.env.GTM_ID
 	const { dataLayer = [] } = opts
 	if (!GTM_ID) throw_missing_argument(opts, { key: 'process.env.GTM_ID' } as error_ctx_I)

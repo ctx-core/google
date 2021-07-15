@@ -1,5 +1,5 @@
 import { has_dom } from '@ctx-core/dom'
-export function init_dataLayer() {
+export function init_dataLayer():void {
 	if (has_dom) {
 		window['dataLayer'] = []
 		window['dataLayer'] = window['dataLayer'] || []

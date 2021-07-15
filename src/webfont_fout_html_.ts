@@ -4,7 +4,9 @@ import type { WebFontConfig } from './WebFontConfig.js'
  * @example `_webfont_fout_html({ families: ['Open Sans'] })`
  * @example `_webfont_fout_html({ WebFontConfig: { custom: { families: ['My Font', 'My Other Font:n4,i4,n7'], urls: ['/fonts.css'] }} })`
  */
-export function webfont_fout_html_(opts = {} as webfont_fout_html_opts_T) {
+export function webfont_fout_html_(
+	opts = {} as webfont_fout_html_opts_T
+):string {
 	const WebFontConfig =
 		opts.WebFontConfig
 		|| {

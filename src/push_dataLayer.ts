@@ -1,4 +1,4 @@
-export function push_dataLayer(obj:object, ...arg_a:object[]) {
+export function push_dataLayer(obj:object, ...arg_a:object[]):void {
 	const dataLayer = window['dataLayer'] = window['dataLayer'] || []
 	dataLayer.push(obj, ...arg_a)
 }

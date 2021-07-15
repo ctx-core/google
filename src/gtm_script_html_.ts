@@ -7,7 +7,7 @@ import { gtm_body_script_html_ } from './gtm_body_script_html_.js'
  * @param opts.GTM_ID
  * @returns {string}
  */
-export function gtm_script_html_(opts = {} as gtm_script_html_opts__T) {
+export function gtm_script_html_(opts = {} as gtm_script_html_opts__T):string {
 	return `
 ${gtm_head_script_html_(opts)}
 ${gtm_body_script_html_(opts)}

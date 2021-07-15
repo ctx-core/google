@@ -3,7 +3,9 @@ import type { gtm_body_script_html_opts_T } from './gtm_body_script_html_opts_T.
 /**
  * Google Tag Manager script html to place at the top of `<body>`
  */
-export function gtm_body_script_html_(opts = {} as gtm_body_script_html_opts_T) {
+export function gtm_body_script_html_(
+	opts = {} as gtm_body_script_html_opts_T
+):string {
 	const GTM_ID = opts.GTM_ID || process.env.GTM_ID
 	if (!GTM_ID) throw_missing_argument(opts, { key: 'process.env.GTM_ID' } as error_ctx_I)
 	return `
