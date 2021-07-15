@@ -1,5 +1,18 @@
 # @ctx-core/google
 
+## 10.0.0
+
+### Major Changes
+
+- "type": "module": module npm type
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @ctx-core/dom@11.0.0
+  - @ctx-core/error@11.0.0
+  - @ctx-core/object@21.0.0
+
 ## 9.0.34
 
 ### Patch Changes
