@@ -1,5 +1,15 @@
 # @ctx-core/google
 
+## 10.0.9
+
+### Patch Changes
+
+- fix: cjs: load as a Promise
+- Updated dependencies [undefined]
+  - @ctx-core/dom@11.0.10
+  - @ctx-core/error@11.0.9
+  - @ctx-core/object@21.0.8
+
 ## 10.0.8
 
 ### Patch Changes
