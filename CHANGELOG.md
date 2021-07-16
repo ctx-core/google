@@ -1,5 +1,25 @@
 # @ctx-core/google
 
+## 10.0.12
+
+### Patch Changes
+
+- fix: sourceMappingURL: "mapRoot": ""
+- Updated dependencies [undefined]
+  - @ctx-core/dom@11.0.12
+  - @ctx-core/error@11.0.11
+  - @ctx-core/object@21.0.10
+
+## 10.0.11
+
+### Patch Changes
+
+- tsconfig.json: "target": "es2019"
+- Updated dependencies [undefined]
+  - @ctx-core/dom@11.0.11
+  - @ctx-core/error@11.0.10
+  - @ctx-core/object@21.0.9
+
 ## 10.0.10
 
 ### Patch Changes
