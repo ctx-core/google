@@ -1,5 +1,15 @@
 # @ctx-core/google
 
+## 10.0.4
+
+### Patch Changes
+
+- support cjs & esm: + "exports"
+- Updated dependencies [undefined]
+  - @ctx-core/dom@11.0.4
+  - @ctx-core/error@11.0.4
+  - @ctx-core/object@21.0.3
+
 ## 10.0.3
 
 ### Patch Changes
