@@ -1,5 +1,25 @@
 # @ctx-core/google
 
+## 10.0.6
+
+### Patch Changes
+
+- back to esm module with cjs using esm npm package to load library
+- Updated dependencies [undefined]
+  - @ctx-core/dom@11.0.7
+  - @ctx-core/error@11.0.6
+  - @ctx-core/object@21.0.5
+
+## 10.0.5
+
+### Patch Changes
+
+- back to esm module with cjs using esm npm package to load library
+- Updated dependencies [undefined]
+  - @ctx-core/dom@11.0.6
+  - @ctx-core/error@11.0.5
+  - @ctx-core/object@21.0.4
+
 ## 10.0.4
 
 ### Patch Changes
