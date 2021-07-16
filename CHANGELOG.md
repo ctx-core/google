@@ -1,5 +1,15 @@
 # @ctx-core/google
 
+## 10.0.8
+
+### Patch Changes
+
+- "main": "./dist/index.cjs"
+- Updated dependencies [undefined]
+  - @ctx-core/dom@11.0.9
+  - @ctx-core/error@11.0.8
+  - @ctx-core/object@21.0.7
+
 ## 10.0.7
 
 ### Patch Changes
