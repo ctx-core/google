@@ -1,5 +1,12 @@
 # @ctx-core/google
 
+## 10.0.18
+
+### Patch Changes
+
+- svelte: 3.40.0 -> 3.40.1
+- update dependencies
+
 ## 10.0.17
 
 ### Patch Changes
