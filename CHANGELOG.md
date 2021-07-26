@@ -1,5 +1,11 @@
 # @ctx-core/google
 
+## 10.0.22
+
+### Patch Changes
+
+- svelte: 3.40.2 -> 3.40.3
+
 ## 10.0.21
 
 ### Patch Changes
