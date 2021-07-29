@@ -1,5 +1,11 @@
 # @ctx-core/google
 
+## 10.0.25
+
+### Patch Changes
+
+- update dependencies
+
 ## 10.0.24
 
 ### Patch Changes
