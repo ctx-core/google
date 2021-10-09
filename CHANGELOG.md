@@ -1,5 +1,13 @@
 # @ctx-core/google
 
+## 10.0.64
+
+### Patch Changes
+
+- update dependencies
+- Updated dependencies [undefined]
+  - @ctx-core/dom@11.0.27
+
 ## 10.0.63
 
 ### Patch Changes
