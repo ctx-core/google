@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/google",
-	"version": "10.0.64",
+	"version": "10.0.65",
 	"description": "ctx-core google",
 	"keywords": [
 		"ctx-core",
@@ -37,16 +37,16 @@
 		"prepublishOnly": "npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "workspace:^11.0.27",
-		"@ctx-core/error": "workspace:^11.0.16",
-		"@ctx-core/object": "workspace:^21.0.20",
+		"@ctx-core/dom": "workspace:^11.0.28",
+		"@ctx-core/error": "workspace:^11.0.17",
+		"@ctx-core/object": "workspace:^21.0.21",
 		"esm": "^3.2.25"
 	},
 	"devDependencies": {
-		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.76",
+		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.77",
 		"@types/google.analytics": "^0.0.42",
-		"svelte": "3.43.1",
-		"typescript": "^4.4.3"
+		"svelte": "3.44.0",
+		"typescript": "^4.4.4"
 	},
 	"publishConfig": {
 		"access": "public",
