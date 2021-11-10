@@ -1,5 +1,15 @@
 # @ctx-core/google
 
+## 10.0.68
+
+### Patch Changes
+
+- compile using swc
+- Updated dependencies
+  - @ctx-core/dom@11.0.30
+  - @ctx-core/error@11.0.18
+  - @ctx-core/object@21.0.22
+
 ## 10.0.67
 
 ### Patch Changes
