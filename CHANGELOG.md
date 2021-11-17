@@ -1,5 +1,11 @@
 # @ctx-core/google
 
+## 10.0.70
+
+### Patch Changes
+
+- Body_GTM,Head_GTM: lang=ts
+
 ## 10.0.69
 
 ### Patch Changes

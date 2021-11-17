@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 export let GTM_ID = process.env.GTM_ID
 </script>
 

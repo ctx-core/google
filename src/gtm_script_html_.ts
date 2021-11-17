@@ -1,6 +1,6 @@
-import type { gtm_script_html_opts__T } from './gtm_script_html_opts___t.js'
-import { gtm_head_script_html_ } from './gtm_head_script_html_.js'
 import { gtm_body_script_html_ } from './gtm_body_script_html_.js'
+import { gtm_head_script_html_ } from './gtm_head_script_html_.js'
+import type { gtm_script_html_opts__T } from './gtm_script_html_opts___t.js'
 /**
  * Html to add gtm.js to the page
  * @param opts
