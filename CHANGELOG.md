@@ -1,5 +1,17 @@
 # @ctx-core/google
 
+## 10.0.71
+
+### Patch Changes
+
+- typescript: ^4.4.4 -> ^4.5.2
+- @swc/core: ^1.2.108 -> ^1.2.110
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/dom@11.0.32
+  - @ctx-core/error@11.0.20
+  - @ctx-core/object@21.0.24
+
 ## 10.0.70
 
 ### Patch Changes
