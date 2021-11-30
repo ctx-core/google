@@ -1,5 +1,28 @@
 # @ctx-core/google
 
+## 10.0.73
+
+### Patch Changes
+
+- @swc/cli: ^0.1.51 -> ^0.1.52
+- @swc/core: ^1.2.111 -> ^1.2.113
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/dom@11.0.34
+  - @ctx-core/error@11.1.3
+  - @ctx-core/object@21.0.26
+
+## 10.0.72
+
+### Patch Changes
+
+- svelte: 3.44.1 -> 3.44.2
+- @swc/core: ^1.2.110 -> ^1.2.111
+- Updated dependencies
+  - @ctx-core/dom@11.0.33
+  - @ctx-core/error@11.1.2
+  - @ctx-core/object@21.0.25
+
 ## 10.0.71
 
 ### Patch Changes
