@@ -1,5 +1,15 @@
 # @ctx-core/google
 
+## 10.0.75
+
+### Patch Changes
+
+- @swc/core: ^1.2.116 -> ^1.2.117
+- Updated dependencies
+  - @ctx-core/dom@11.0.36
+  - @ctx-core/error@11.1.5
+  - @ctx-core/object@21.0.28
+
 ## 10.0.74
 
 ### Patch Changes
