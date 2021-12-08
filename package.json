@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/google",
-	"version": "10.0.78",
+	"version": "10.0.79",
 	"description": "ctx-core google",
 	"keywords": [
 		"ctx-core",
@@ -21,7 +21,6 @@
 	"types": "./src/index.ts",
 	"exports": {
 		".": {
-			"require": "./dist/index.cjs",
 			"import": "./dist/index.js"
 		},
 		"./package.json": "./package.json"
@@ -39,7 +38,7 @@
 		"@ctx-core/object": "workspace:^21.0.30"
 	},
 	"devDependencies": {
-		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.83",
+		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.85",
 		"@swc/cli": "^0.1.52",
 		"@swc/core": "^1.2.118",
 		"@types/google.analytics": "^0.0.42",
