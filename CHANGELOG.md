@@ -1,5 +1,16 @@
 # @ctx-core/google
 
+## 10.0.80
+
+### Patch Changes
+
+- package.json: - module
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/object@22.0.0
+  - @ctx-core/dom@11.0.40
+  - @ctx-core/error@11.1.9
+
 ## 10.0.79
 
 ### Patch Changes
