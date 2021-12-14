@@ -1,5 +1,11 @@
 # @ctx-core/google
 
+## 11.0.0
+
+### Major Changes
+
+- extracted @ctx-core/google-ui-svelte
+
 ## 10.0.80
 
 ### Patch Changes
