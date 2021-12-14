@@ -1,5 +1,11 @@
 # @ctx-core/google
 
+## 11.0.1
+
+### Patch Changes
+
+- svelte: 3.44.2 -> 3.44.3
+
 ## 11.0.0
 
 ### Major Changes
