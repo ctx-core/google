@@ -1,5 +1,15 @@
 # @ctx-core/google
 
+## 11.0.2
+
+### Patch Changes
+
+- package.json: svelte: ./dist/index.js
+- Updated dependencies
+  - @ctx-core/dom@11.0.41
+  - @ctx-core/error@11.1.10
+  - @ctx-core/object@22.0.1
+
 ## 11.0.1
 
 ### Patch Changes
