@@ -1,5 +1,15 @@
 # @ctx-core/google
 
+## 11.0.9
+
+### Patch Changes
+
+- fix: error TS6059: \* is not under 'rootDir': package.json: types: ./dist/index.d.ts
+- Updated dependencies
+  - @ctx-core/dom@11.0.48
+  - @ctx-core/error@11.1.17
+  - @ctx-core/object@22.0.8
+
 ## 11.0.8
 
 ### Patch Changes
