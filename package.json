@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/google",
-	"version": "11.0.7",
+	"version": "11.0.8",
 	"description": "ctx-core google",
 	"keywords": [
 		"ctx-core",
@@ -35,12 +35,12 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "workspace:^11.0.46",
-		"@ctx-core/error": "workspace:^11.1.15",
-		"@ctx-core/object": "workspace:^22.0.6"
+		"@ctx-core/dom": "workspace:^11.0.47",
+		"@ctx-core/error": "workspace:^11.1.16",
+		"@ctx-core/object": "workspace:^22.0.7"
 	},
 	"devDependencies": {
-		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.93",
+		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.94",
 		"@swc/cli": "^0.1.55",
 		"@swc/core": "^1.2.120",
 		"@types/google.analytics": "^0.0.42",
