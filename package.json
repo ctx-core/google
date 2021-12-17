@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/google",
-	"version": "11.0.6",
+	"version": "11.0.7",
 	"description": "ctx-core google",
 	"keywords": [
 		"ctx-core",
@@ -17,7 +17,7 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
-	"types": "./dist/index.d.ts",
+	"types": "./src/index.ts",
 	"exports": {
 		".": {
 			"import": "./dist/index.js"
@@ -35,12 +35,12 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "workspace:^11.0.45",
-		"@ctx-core/error": "workspace:^11.1.14",
-		"@ctx-core/object": "workspace:^22.0.5"
+		"@ctx-core/dom": "workspace:^11.0.46",
+		"@ctx-core/error": "workspace:^11.1.15",
+		"@ctx-core/object": "workspace:^22.0.6"
 	},
 	"devDependencies": {
-		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.92",
+		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.93",
 		"@swc/cli": "^0.1.55",
 		"@swc/core": "^1.2.120",
 		"@types/google.analytics": "^0.0.42",

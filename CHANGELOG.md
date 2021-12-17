@@ -1,5 +1,15 @@
 # @ctx-core/google
 
+## 11.0.7
+
+### Patch Changes
+
+- package.json: "types": "./src/index.ts": better editing experience
+- Updated dependencies
+  - @ctx-core/dom@11.0.46
+  - @ctx-core/error@11.1.15
+  - @ctx-core/object@22.0.6
+
 ## 11.0.6
 
 ### Patch Changes
