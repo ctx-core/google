@@ -42,7 +42,7 @@
 	"devDependencies": {
 		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.96",
 		"@swc/cli": "^0.1.55",
-		"@swc/core": "^1.2.120",
+		"@swc/core": "^1.2.121",
 		"@types/google.analytics": "^0.0.42",
 		"rimraf": "^3.0.2",
 		"svelte": "^3.44.3",
