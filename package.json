@@ -41,7 +41,7 @@
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.55",
-		"@swc/core": "^1.2.121",
+		"@swc/core": "^1.2.122",
 		"@types/google.analytics": "^0.0.42",
 		"rimraf": "^3.0.2",
 		"svelte": "^3.44.3",
