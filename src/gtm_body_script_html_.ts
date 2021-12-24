@@ -7,7 +7,7 @@ export function gtm_body_script_html_(
 	opts = {} as gtm_body_script_html_opts_T
 ):string {
 	const GTM_ID = opts.GTM_ID || process.env.GTM_ID
-	if (!GTM_ID) throw_missing_argument(opts, { key: 'process.env.GTM_ID' } as error_ctx_I)
+	if (!GTM_ID) throw_missing_argument(opts, { key: 'GTM_ID' } as error_ctx_I)
 	return `
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=${GTM_ID}"

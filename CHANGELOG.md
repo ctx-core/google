@@ -1,5 +1,11 @@
 # @ctx-core/google
 
+## 11.0.10
+
+### Patch Changes
+
+- fix: gtm*body_script_html*: throw_missing_argument: key: 'GTM_ID'
+
 ## 11.0.9
 
 ### Patch Changes
