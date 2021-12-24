@@ -1,5 +1,12 @@
 # @ctx-core/google
 
+## 11.0.11
+
+### Patch Changes
+
+- c0e254a52: .js + .d.ts instead of .ts
+- .js + .d.ts instead of .ts
+
 ## 11.0.10
 
 ### Patch Changes
