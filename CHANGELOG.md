@@ -1,5 +1,11 @@
 # @ctx-core/google
 
+## 11.0.12
+
+### Patch Changes
+
+- fix: init_dataLayer: opts is an optional argument
+
 ## 11.0.11
 
 ### Patch Changes
