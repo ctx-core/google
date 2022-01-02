@@ -1,5 +1,14 @@
 # @ctx-core/google
 
+## 11.0.13
+
+### Patch Changes
+
+- .js + .d.ts instead of .ts
+- Updated dependencies
+  - @ctx-core/dom@11.1.2
+  - @ctx-core/error@11.1.18
+
 ## 11.0.12
 
 ### Patch Changes

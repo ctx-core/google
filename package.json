@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/google",
-	"version": "11.0.12",
+	"version": "11.0.13",
 	"description": "ctx-core google",
 	"keywords": [
 		"ctx-core",
@@ -35,8 +35,8 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "workspace:^11.1.0",
-		"@ctx-core/error": "workspace:^11.1.17",
+		"@ctx-core/dom": "workspace:^11.1.2",
+		"@ctx-core/error": "workspace:^11.1.18",
 		"@ctx-core/object": "workspace:^22.0.8"
 	},
 	"devDependencies": {
@@ -47,7 +47,7 @@
 		"check-dts": "^0.6.6",
 		"eslint": "^8.6.0",
 		"tsm": "^2.2.1",
-		"typescript": "^4.6.0-dev.20211229",
+		"typescript": "^4.6.0-dev.20220102",
 		"uvu": "^0.5.2"
 	},
 	"publishConfig": {
