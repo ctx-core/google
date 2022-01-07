@@ -1,5 +1,16 @@
 # @ctx-core/google
 
+## 11.0.15
+
+### Patch Changes
+
+- uvu: ^0.5.2 -> ^0.5.3
+- @swc/core: ^1.2.125 -> ^1.2.127
+- Updated dependencies
+  - @ctx-core/dom@11.1.4
+  - @ctx-core/error@11.1.22
+  - @ctx-core/object@22.0.11
+
 ## 11.0.14
 
 ### Patch Changes
