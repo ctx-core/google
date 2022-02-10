@@ -35,9 +35,9 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "workspace:^11.1.6",
-		"@ctx-core/error": "workspace:^11.4.0",
-		"@ctx-core/object": "workspace:*"
+		"@ctx-core/dom": "^11.1.6",
+		"@ctx-core/error": "^11.4.0",
+		"@ctx-core/object": "*"
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.55",
