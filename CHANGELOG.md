@@ -1,5 +1,11 @@
 # @ctx-core/google
 
+## 11.0.21
+
+### Patch Changes
+
+- typescript: ^4.6.0-dev.20220120 -> ^4.6.2
+
 ## 11.0.20
 
 ### Patch Changes
