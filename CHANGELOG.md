@@ -1,5 +1,15 @@
 # @ctx-core/google
 
+## 11.0.24
+
+### Patch Changes
+
+- package.json: exports: update
+- Updated dependencies
+  - @ctx-core/dom@11.1.10
+  - @ctx-core/error@11.4.2
+  - @ctx-core/object@22.1.4
+
 ## 11.0.23
 
 ### Patch Changes
