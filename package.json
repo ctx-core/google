@@ -39,9 +39,9 @@
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.57",
-		"@swc/core": "^1.2.168",
+		"@swc/core": "^1.2.170",
 		"@types/google.analytics": "^0.0.42",
-		"c8": "^7.11.0",
+		"c8": "^7.11.2",
 		"check-dts": "^0.6.6",
 		"eslint": "^8.13.0",
 		"tsm": "^2.2.1",
