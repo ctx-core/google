@@ -33,13 +33,13 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "^11.1.16",
+		"@ctx-core/dom": "^11.1.17",
 		"@ctx-core/error": "^11.4.7",
 		"@ctx-core/object": "^22.1.10"
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.57",
-		"@swc/core": "^1.2.177",
+		"@swc/core": "^1.2.178",
 		"@types/google.analytics": "^0.0.42",
 		"c8": "^7.11.2",
 		"check-dts": "^0.6.7",
