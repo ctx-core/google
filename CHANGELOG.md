@@ -1,5 +1,15 @@
 # @ctx-core/google
 
+## 11.0.30
+
+### Patch Changes
+
+- @ctx-core/dom: ^11.1.15 -> ^11.1.16
+- @ctx-core/object: ^22.1.9 -> ^22.1.10
+- eslint: ^8.14.0 -> ^8.15.0
+- Updated dependencies
+  - @ctx-core/error@11.4.7
+
 ## 11.0.29
 
 ### Patch Changes
