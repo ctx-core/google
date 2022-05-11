@@ -39,7 +39,7 @@
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.57",
-		"@swc/core": "^1.2.181",
+		"@swc/core": "^1.2.182",
 		"@types/google.analytics": "^0.0.42",
 		"c8": "^7.11.2",
 		"check-dts": "^0.6.7",
