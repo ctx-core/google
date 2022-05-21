@@ -1,5 +1,11 @@
 # @ctx-core/google
 
+## 11.0.31
+
+### Patch Changes
+
+- eslint: ^8.15.0 -> ^8.16.0
+
 ## 11.0.30
 
 ### Patch Changes
