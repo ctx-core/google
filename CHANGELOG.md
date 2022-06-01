@@ -1,5 +1,11 @@
 # @ctx-core/google
 
+## 11.0.34
+
+### Patch Changes
+
+- update dependencies
+
 ## 11.0.33
 
 ### Patch Changes
