@@ -39,11 +39,11 @@
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.57",
-		"@swc/core": "^1.2.220",
+		"@swc/core": "^1.2.222",
 		"@types/google.analytics": "^0.0.42",
 		"c8": "^7.12.0",
 		"check-dts": "^0.6.7",
-		"eslint": "^8.20.0",
+		"eslint": "^8.21.0",
 		"tsx": "^3.8.0",
 		"typescript": "^4.7.4",
 		"uvu": "^0.5.6"
