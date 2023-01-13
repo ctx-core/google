@@ -1,5 +1,11 @@
 # @ctx-core/google
 
+## 11.0.57
+
+### Patch Changes
+
+- @ctx-core/dom: ^11.2.19 -> ^11.2.20
+
 ## 11.0.56
 
 ### Patch Changes
