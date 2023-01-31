@@ -1,5 +1,15 @@
 # @ctx-core/google
 
+## 11.0.63
+
+### Patch Changes
+
+- tsconfig.json: - importsNotUsedAsValues
+- Updated dependencies
+  - @ctx-core/dom@11.2.25
+  - @ctx-core/error@11.5.14
+  - @ctx-core/object@24.1.1
+
 ## 11.0.62
 
 ### Patch Changes
