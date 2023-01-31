@@ -1,5 +1,11 @@
 # @ctx-core/google
 
+## 11.0.65
+
+### Patch Changes
+
+- @ctx-core/error: ^11.5.15 -> ^11.5.16
+
 ## 11.0.64
 
 ### Patch Changes
