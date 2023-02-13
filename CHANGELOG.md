@@ -1,5 +1,11 @@
 # @ctx-core/google
 
+## 11.1.1
+
+### Patch Changes
+
+- fix: export push_dataLayer: aliases dataLayer\_\_push
+
 ## 11.1.0
 
 ### Minor Changes
