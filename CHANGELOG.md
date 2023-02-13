@@ -1,5 +1,12 @@
 # @ctx-core/google
 
+## 11.1.0
+
+### Minor Changes
+
+- dataLayer\_\_init: aliased by init_dataLayer
+- dataLayer\_\_push: aliased by push_dataLayer
+
 ## 11.0.77
 
 ### Patch Changes
