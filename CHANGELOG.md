@@ -1,5 +1,11 @@
 # @ctx-core/google
 
+## 11.1.2
+
+### Patch Changes
+
+- types: fix: dataLayer\_\_init as init_dataLayer
+
 ## 11.1.1
 
 ### Patch Changes
