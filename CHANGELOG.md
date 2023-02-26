@@ -1,5 +1,11 @@
 # @ctx-core/google
 
+## 11.2.1
+
+### Patch Changes
+
+- dependencies: fix: @ctx-core/env
+
 ## 11.2.0
 
 ### Minor Changes
