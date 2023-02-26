@@ -1,5 +1,17 @@
 # @ctx-core/google
 
+## 11.2.0
+
+### Minor Changes
+
+- - gtm_script_html_opts_T: aliased by gtm_script_html_opts\_\_T
+- - gtag_html_opts_T: aliased by \_gtag_html_opts_T
+
+### Patch Changes
+
+- Updated dependencies
+  - @ctx-core/env@17.2.18
+
 ## 11.1.29
 
 ### Patch Changes
