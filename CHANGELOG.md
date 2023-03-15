@@ -1,5 +1,11 @@
 # @ctx-core/google
 
+## 11.2.27
+
+### Patch Changes
+
+- @ctx-core/env: ^17.2.34 -> ^17.2.36
+
 ## 11.2.26
 
 ### Patch Changes
