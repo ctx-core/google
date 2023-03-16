@@ -1,5 +1,11 @@
 # @ctx-core/google
 
+## 11.2.32
+
+### Patch Changes
+
+- typescript: ^4.9.5 -> ^5.0.2
+
 ## 11.2.31
 
 ### Patch Changes
