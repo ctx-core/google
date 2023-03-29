@@ -1,5 +1,13 @@
 # @ctx-core/google
 
+## 11.2.49
+
+### Patch Changes
+
+- @ctx-core/error: ^12.0.0 -> ^12.1.2
+- Updated dependencies
+  - @ctx-core/env@17.2.45
+
 ## 11.2.48
 
 ### Patch Changes
