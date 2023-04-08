@@ -1,5 +1,12 @@
 # @ctx-core/google
 
+## 11.2.65
+
+### Patch Changes
+
+- typescript: ^5.0.3 -> ^5.0.4
+- eslint: ^8.37.0 -> ^8.38.0
+
 ## 11.2.64
 
 ### Patch Changes
