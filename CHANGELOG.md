@@ -1,5 +1,11 @@
 # @ctx-core/google
 
+## 11.2.87
+
+### Patch Changes
+
+- fix: + \*.js files
+
 ## 11.2.86
 
 ### Patch Changes
