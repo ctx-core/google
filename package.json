@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/google",
-	"version": "11.2.147",
+	"version": "11.2.148",
 	"description": "ctx-core google",
 	"keywords": [
 		"ctx-core",
@@ -33,7 +33,7 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "^14.1.61",
+		"@ctx-core/dom": "^14.1.62",
 		"@ctx-core/env": "^17.3.1",
 		"@ctx-core/error": "^12.3.40",
 		"@ctx-core/object": "^28.0.5"
