@@ -1,5 +1,17 @@
 # @ctx-core/google
 
+## 11.2.165
+
+### Patch Changes
+
+- @types/google.analytics: ^0.0.43 -> ^0.0.44
+- tsx: ^3.13.0 -> ^3.14.0
+- Updated dependencies
+  - @ctx-core/dom@14.2.4
+  - @ctx-core/env@17.3.10
+  - @ctx-core/error@12.3.45
+  - @ctx-core/object@28.2.1
+
 ## 11.2.164
 
 ### Patch Changes
