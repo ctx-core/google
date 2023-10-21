@@ -1,5 +1,13 @@
 # @ctx-core/google
 
+## 11.2.166
+
+### Patch Changes
+
+- eslint: ^8.51.0 -> ^8.52.0
+- Updated dependencies
+  - @ctx-core/env@17.3.11
+
 ## 11.2.165
 
 ### Patch Changes
