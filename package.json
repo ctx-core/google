@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/google",
-	"version": "11.2.177",
+	"version": "11.2.178",
 	"description": "ctx-core google",
 	"keywords": [
 		"ctx-core",
@@ -39,7 +39,7 @@
 		"@ctx-core/object": "^29.0.0"
 	},
 	"devDependencies": {
-		"@types/google.analytics": "^0.0.44",
+		"@types/google.analytics": "^0.0.45",
 		"c8": "^8.0.1",
 		"check-dts": "^0.7.2",
 		"eslint": "^8.53.0",
