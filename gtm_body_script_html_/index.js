@@ -2,7 +2,7 @@ import { import_meta_env_ } from '@ctx-core/env'
 import { missing_argument__throw } from '@ctx-core/error'
 /**
  * Google Tag Manager script html to place at the top of `<body>`
- * @param {import('../_types').gtm_body_script_html_opts_T}[opts]
+ * @param {import('../_types/index.js').gtm_body_script_html_opts_T}[opts]
  * @returns {string}
  * @private
  */

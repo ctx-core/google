@@ -1,4 +1,4 @@
-import type { WebFontConfig } from '../_types'
+import type { WebFontConfig } from '../_types/index.js'
 /**
  * Html to guard against flash of unfocused text with Google Fonts.
  * @example `_webfont_fout_html({ families: ['Open Sans'] })`

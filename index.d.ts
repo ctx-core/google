@@ -1,3 +1,4 @@
+export * from './_types/index.js'
 export * from './analytics_google_script_/index.js'
 export * from './gtag_html_/index.js'
 export * from './gtm_body_script_html_/index.js'
