@@ -1,5 +1,18 @@
 # @ctx-core/google
 
+## 11.3.1
+
+### Patch Changes
+
+- tsx: ^4.0.0 -> ^4.1.2
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/error@12.4.1
+  - @ctx-core/object@30.1.1
+  - @ctx-core/env@17.4.1
+  - @ctx-core/dom@15.1.1
+
 ## 11.3.0
 
 ### Minor Changes
