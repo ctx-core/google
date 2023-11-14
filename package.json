@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/google",
-	"version": "11.3.1",
+	"version": "11.3.2",
 	"description": "ctx-core google",
 	"keywords": [
 		"ctx-core",
@@ -19,6 +19,7 @@
 	"type": "module",
 	"files": [
 		"*.d.ts",
+		"*.json",
 		"./_types",
 		"./analytics_google_script_",
 		"./dataLayer__init",
@@ -44,10 +45,10 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "^15.1.1",
-		"@ctx-core/env": "^17.4.1",
-		"@ctx-core/error": "^12.4.1",
-		"@ctx-core/object": "^30.1.1"
+		"@ctx-core/dom": "^15.1.2",
+		"@ctx-core/env": "^17.4.2",
+		"@ctx-core/error": "^12.4.2",
+		"@ctx-core/object": "^30.1.2"
 	},
 	"devDependencies": {
 		"@types/google.analytics": "^0.0.45",
