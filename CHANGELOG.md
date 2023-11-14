@@ -1,5 +1,16 @@
 # @ctx-core/google
 
+## 11.3.3
+
+### Patch Changes
+
+- package.json: files: + \*.js
+- Updated dependencies
+  - @ctx-core/dom@15.1.3
+  - @ctx-core/env@17.4.3
+  - @ctx-core/error@12.4.3
+  - @ctx-core/object@30.1.3
+
 ## 11.3.2
 
 ### Patch Changes
