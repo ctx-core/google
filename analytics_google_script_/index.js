@@ -1,7 +1,7 @@
 import { import_meta_env_ } from '@ctx-core/env'
 import { missing_argument__throw } from '@ctx-core/error'
 import { clone } from '@ctx-core/object'
-/** @typedef {import('../_types/index.d.ts').gtm_body_script_html_opts_T}gtm_body_script_html_opts_T */
+/** @typedef {import('../_types/index.d.ts').gtm_body_script_html_opts_T} */
 /**
  * Html to add ga.js to the site
  * @param {Partial<gtm_body_script_html_opts_T>}opts_a
