@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/google",
-	"version": "11.3.35",
+	"version": "11.3.36",
 	"description": "ctx-core google",
 	"keywords": [
 		"ctx-core",
@@ -46,10 +46,10 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "^15.1.32",
-		"@ctx-core/env": "^17.4.35",
-		"@ctx-core/error": "^12.4.31",
-		"@ctx-core/object": "^31.1.13"
+		"@ctx-core/dom": "^15.1.33",
+		"@ctx-core/env": "^17.4.36",
+		"@ctx-core/error": "^12.4.32",
+		"@ctx-core/object": "^31.1.14"
 	},
 	"devDependencies": {
 		"@types/google.analytics": "^0.0.45",
