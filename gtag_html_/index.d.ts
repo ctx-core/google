@@ -1,4 +1,4 @@
-import { error_o_T } from '@ctx-core/error'
+import { error_o_T } from 'ctx-core/error'
 /**
  * Html to add gtag.js to the site
  */

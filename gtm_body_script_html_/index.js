@@ -1,8 +1,9 @@
+/// <reference types="../types/index.d.ts" />
 import { import_meta_env_ } from '@ctx-core/env'
-import { missing_argument__throw } from '@ctx-core/error'
+import { missing_argument__throw } from 'ctx-core/error'
 /**
  * Google Tag Manager script html to place at the top of `<body>`
- * @param {import('../_types/index.js').gtm_body_script_html_opts_T}[opts]
+ * @param {gtm_body_script_html_opts_T}[opts]
  * @returns {string}
  * @private
  */

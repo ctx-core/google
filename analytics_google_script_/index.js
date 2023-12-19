@@ -1,7 +1,6 @@
+/// <reference types="../types/index.d.ts" />
 import { import_meta_env_ } from '@ctx-core/env'
-import { missing_argument__throw } from '@ctx-core/error'
-import { clone } from '@ctx-core/object'
-/** @typedef {import('../_types/index.d.ts').gtm_body_script_html_opts_T} */
+import { missing_argument__throw } from 'ctx-core/error'
 /**
  * Html to add ga.js to the site
  * @param {Partial<gtm_body_script_html_opts_T>}opts_a
@@ -9,7 +8,7 @@ import { clone } from '@ctx-core/object'
  * @private
  */
 export function analytics_google_script_(...opts_a) {
-	const opts = clone(...opts_a)
+	const opts = { ...opts_a }
 	const GOOGLE_TRACKING_ID =
 		opts.GOOGLE_TRACKING_ID
 		|| opts.GA_ID

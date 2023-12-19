@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/google",
-	"version": "11.3.65",
+	"version": "11.3.66",
 	"description": "ctx-core google",
 	"keywords": [
 		"ctx-core",
@@ -48,8 +48,7 @@
 	"dependencies": {
 		"@ctx-core/dom": "^15.1.59",
 		"@ctx-core/env": "^17.4.60",
-		"@ctx-core/error": "^12.4.54",
-		"@ctx-core/object": "^31.1.36"
+		"ctx-core": "^5.1.0"
 	},
 	"devDependencies": {
 		"@types/google.analytics": "^0.0.45",
