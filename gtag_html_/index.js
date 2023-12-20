@@ -1,4 +1,4 @@
-import { import_meta_env_ } from '@ctx-core/env'
+import { import_meta_env_ } from 'ctx-core/env'
 import { missing_argument__throw } from 'ctx-core/error'
 /**
  * Html to add gtag.js to the site
