@@ -1,5 +1,14 @@
 # @ctx-core/google
 
+## 11.3.112
+
+### Patch Changes
+
+- ctx-core: ^5.25.0 -> ^5.25.1
+- Updated dependencies
+  - @ctx-core/dom@15.2.35
+  - @ctx-core/env@17.5.39
+
 ## 11.3.111
 
 ### Patch Changes
