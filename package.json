@@ -49,7 +49,7 @@
 	"dependencies": {
 		"@ctx-core/dom": "^15.3.1",
 		"@ctx-core/env": "^17.5.45",
-		"ctx-core": "^5.27.0"
+		"ctx-core": "^5.27.1"
 	},
 	"devDependencies": {
 		"@types/google.analytics": "^0.0.45",
