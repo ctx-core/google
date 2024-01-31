@@ -8,22 +8,22 @@ test('webfont_fout_html_', ()=>{
 		})}`
 	)
 	match(webfont_fout_html_(
-			{
-				WebFontConfig:
+		{
+			WebFontConfig:
 					{
 						custom: {
 							families: ['My Font', 'My Other Font:n4,i4,n7'],
 							urls: ['/fonts.css']
 						}
 					}
-			}),
-		`WebFontConfig = ${JSON.stringify({
-				custom: {
-					families: ['My Font', 'My Other Font:n4,i4,n7'],
-					urls: ['/fonts.css']
-				}
-			}
-		)}`
+		}),
+	`WebFontConfig = ${JSON.stringify({
+		custom: {
+			families: ['My Font', 'My Other Font:n4,i4,n7'],
+			urls: ['/fonts.css']
+		}
+	}
+	)}`
 	)
 })
 test.run()
