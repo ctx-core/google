@@ -1,5 +1,13 @@
 # @ctx-core/google
 
+## 11.3.149
+
+### Patch Changes
+
+- tsx: ^4.7.0 -> ^4.7.1
+- Updated dependencies
+  - ctx-core@6.1.2
+
 ## 11.3.148
 
 ### Patch Changes
