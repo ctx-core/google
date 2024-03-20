@@ -1,5 +1,13 @@
 # @ctx-core/google
 
+## 11.3.172
+
+### Patch Changes
+
+- package.json: author: url,email
+- Updated dependencies
+  - ctx-core@6.6.1
+
 ## 11.3.171
 
 ### Patch Changes
