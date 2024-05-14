@@ -1,5 +1,11 @@
 # @ctx-core/google
 
+## 11.3.199
+
+### Patch Changes
+
+- ctx-core: ^7.2.7 -> ^7.2.8
+
 ## 11.3.198
 
 ### Patch Changes
