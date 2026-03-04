@@ -1,5 +1,27 @@
 # @ctx-core/google
 
+## 11.3.223
+
+### Patch Changes
+
+- eslint: ^9.39.1 -> ^10.0.2
+- c8: ^10.1.3 -> ^11.0.0
+- check-dts: ^0.8.2 -> ^0.9.0
+- tsx: ^4.20.6 -> ^4.21.0
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - ctx-core@7.2.33
+
 ## 11.3.222
 
 ### Patch Changes
