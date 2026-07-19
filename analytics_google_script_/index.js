@@ -3,19 +3,18 @@ import { import_meta_env_ } from 'ctx-core/env'
 import { missing_argument__throw } from 'ctx-core/error'
 /**
  * Html to add ga.js to the site
- * @param {Partial<gtm_body_script_html_opts_T>}opts_a
+ * @param {Partial<gtm_body_script_html_opts_T>}[opts]
  * @returns {string}
  * @private
  */
-export function analytics_google_script_(...opts_a) {
-	const opts = { ...opts_a }
+export function analytics_google_script_(opts = {}) {
 	const GOOGLE_TRACKING_ID =
 		opts.GOOGLE_TRACKING_ID
 		|| opts.GA_ID
 		|| import_meta_env_().GA_GOOGLE_TRACKING_ID
-	if (!GOOGLE_TRACKING_ID) missing_argument__throw({
-		key: 'import.meta.env.GOOGLE_TRACKING_ID'
-	})
+	if (!GOOGLE_TRACKING_ID) missing_argument__throw(
+		'GOOGLE_TRACKING_ID: not defined',
+		{ key: 'GOOGLE_TRACKING_ID' })
 	return `
 <!-- Google Analytics -->
 <script data-cfasync="false">

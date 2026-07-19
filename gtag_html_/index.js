@@ -11,7 +11,7 @@ export function gtag_html_(opts = {}) {
 		opts.GOOGLE_TRACKING_ID
 		|| import_meta_env_().GOOGLE_TRACKING_ID
 		|| ''
-	if (!GOOGLE_TRACKING_ID) missing_argument__throw(opts, { key: 'GOOGLE_TRACKING_ID' })
+	if (!GOOGLE_TRACKING_ID) missing_argument__throw('GOOGLE_TRACKING_ID: not defined', { key: 'GOOGLE_TRACKING_ID' })
 	return `
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=${GOOGLE_TRACKING_ID}"></script>

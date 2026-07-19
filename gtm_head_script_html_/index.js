@@ -10,7 +10,7 @@ import { missing_argument__throw } from 'ctx-core/error'
 export function gtm_head_script_html_(opts = {}) {
 	const GTM_ID = opts.GTM_ID || import_meta_env_().GTM_ID
 	const { dataLayer = [] } = opts
-	if (!GTM_ID) missing_argument__throw(opts, { key: 'GTM_ID' })
+	if (!GTM_ID) missing_argument__throw('GTM_ID: not defined', { key: 'GTM_ID' })
 	return `
 <script data-cfasync="false">window.dataLayer = ${JSON.stringify(dataLayer)};</script>
 <!-- Google Tag Manager -->

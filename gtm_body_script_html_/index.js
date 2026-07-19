@@ -9,7 +9,7 @@ import { missing_argument__throw } from 'ctx-core/error'
  */
 export function gtm_body_script_html_(opts = {}) {
 	const GTM_ID = opts.GTM_ID || import_meta_env_().GTM_ID
-	if (!GTM_ID) missing_argument__throw(opts, { key: 'GTM_ID' })
+	if (!GTM_ID) missing_argument__throw('GTM_ID: not defined', { key: 'GTM_ID' })
 	return `
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=${GTM_ID}"
